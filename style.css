@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(forest.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(7px);
+    height: 350px;
+    width: 400px;
+}
+
+.container>h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.input-box {
+    padding: 6px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.input-box>input {
+    width: 80%;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.remember-forgot>label {
+    color: white;
+}
+
+.remember-forgot>a {
+    text-decoration: none;
+    color: white;
+}
+
+.remember-forgot>a:hover,
+.register>p>a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 8px;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.701);
+    color: black;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.register>p>a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
